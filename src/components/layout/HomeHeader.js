@@ -11,8 +11,7 @@ const HomeHeader = () => {
     return (
         <header className="header index-header">
             <div className="overlay"></div>
-                <NavBar />
-
+            <NavBar/>
             <div class="container">
                 <div class="description">
                     <h1>JOHN</h1>
@@ -23,8 +22,6 @@ const HomeHeader = () => {
                     <p><small class="text-muted">This website is in beta. Please open on desktop - not mobile.</small></p>
                 </div>
             </div>
-
-
         </header>
     );
 }

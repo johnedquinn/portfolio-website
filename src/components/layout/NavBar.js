@@ -10,27 +10,15 @@ import { Navbar, Nav } from 'react-bootstrap';
 /* NAVBAR */
 const NavBar = () => {
     return (
-        /*<nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
-            <Link className="navbar-brand col-2" to="/">John Ed Quinn</Link>
-            <ul className="navbar-nav justify-content-end col-10">
-                <li className="nav-item px-2">
-                    <Link className="nav-link active" to="/">Home</Link>
-                </li>
-                <li className="nav-item px-2">
-                    <Link className="nav-link" to="/projects">My Work</Link>
-                </li>
-                <li className="nav-item px-2">
-                    <Link className="nav-link" to="/contact">Contact</Link>
-                </li>
-            </ul>
-        </nav>*/
         <Navbar className="navbar-dark" bg="transparent" expand="lg">
-            <Navbar.Brand href="#home">John Ed Quinn</Navbar.Brand>
+            <Navbar.Brand href="/">John Ed Quinn</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-            <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
+            <Navbar.Collapse className="justify-content-end">
+                <Nav className="mr-auto justify-content-end">
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/projects">Projects</Nav.Link>
+                    <Nav.Link href="/courses">Courses</Nav.Link>
+                    <Nav.Link href="/contact">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

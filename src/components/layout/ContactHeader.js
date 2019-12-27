@@ -8,24 +8,18 @@ import NavBar from './NavBar';
 
 /* NAVBAR */
 const ContactHeader = () => {
-    return (
-        <header class="header contact-header">
-
-        <NavBar/>
-
-		<div class="container">
-			<div class="thoughtsDescription">
-				<h1 class="text-dark">Reach Out</h1>
-				<p class="text-dark">I'd love to hear some feedback.</p>
-				<p class="text-dark"><small>johnedquinn@gmail.com</small></p>
+	return (
+		<header class="header contact-header bg-dark">
+			<NavBar/>
+			<div class="container">
+				<div class="thoughtsDescription">
+					<h1 class="text-light">Reach Out</h1>
+					<p class="text-light">I'd love to hear some feedback.</p>
+					<p class="text-light"><small>johnedquinn@gmail.com</small></p>
+				</div>
 			</div>
-		</div>
-
-
-
-	</header>
-
-    );
+		</header>
+	);
 }
 
 /* EXPORTS */

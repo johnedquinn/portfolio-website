@@ -4,6 +4,7 @@
 
 /* IMPORTS */
 import React, { Fragment } from 'react';
+import GitLab_Favicon from '../img/GitLab_Favicon.png';
 
 /* NAVBAR */
 const ProjectsContent = () => {
@@ -39,7 +40,7 @@ const ProjectsContent = () => {
 							project by clicking the title above.</p>
                             </div>
                             <div class="card-footer">
-                                <img style={{maxHeight: '5rem', maxWidth: '1.5rem'}} src="../img/GitLab_Favicon.png"
+                                <img style={{maxHeight: '5rem', maxWidth: '1.5rem'}} src={GitLab_Favicon}
                                     alt="GitLab Project"></img>
                                 <p class="card-text"><small class="text-muted">GitLab Project | C | Bash | HTML | JS</small>
                                 </p>
