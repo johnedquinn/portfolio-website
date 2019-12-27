@@ -4,14 +4,14 @@
 
 /* IMPORTS */
 import React from 'react';
-import Navbar from './Navbar';
+import NavBar from './NavBar';
 
 /* NAVBAR */
 const HomeHeader = () => {
     return (
         <header className="header index-header">
             <div className="overlay"></div>
-                <Navbar />
+                <NavBar />
 
             <div class="container">
                 <div class="description">
