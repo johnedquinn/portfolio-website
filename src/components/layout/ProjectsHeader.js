@@ -3,9 +3,8 @@
 // @desc:       Header for Projects Page
 
 /* IMPORTS */
-import React, { Fragment } from 'react';
+import React from 'react';
 import Navbar from './Navbar';
-import { Link } from 'react-router-dom';
 
 /* NAVBAR */
 const HomeHeader = () => {

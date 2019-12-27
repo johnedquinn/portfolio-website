@@ -3,7 +3,7 @@
 // @desc:       Navigation Bar
 
 /* IMPORTS */
-import React, { Fragment } from 'react';
+import React from 'react';
 import Navbar from './Navbar';
 
 /* NAVBAR */
