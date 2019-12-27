@@ -11,50 +11,6 @@ const HomeContent = () => {
         <Fragment>
             <div class="col">
                 <div class="row py-4"></div>
-                <div class="row py-3">
-
-                    <div class="col-1"></div>
-                    <div class="col-6">
-                        <div class="card index-card">
-                            <div class="card-body">
-                                <h5 class="card-title text-dark">Who I Am</h5>
-                                <p></p>
-                                <p>I am a current Junior, intending on graduating in May 2021.</p>
-                                <p>My passion is building beautiful things from makefiles
-                                    to compilers to servers or even mobile applications. In university, I'm learning the
-                                    complexity behind computers and
-                                    computer networks. On my own, however, is where I do a
-                                    large portion of my learning. I'm currently learning how to quickly make apps for
-                                    future hackathons using Google's SDK, Flutter. I'm building a compiler proper in my
-                                    Compilers and Language Design course, and I'm on the executive board for CS For Good, a
-                                    club that organizes several
-							non-profit projects to serve the needs of the community.</p>
-                                <p>When I'm not teaching myself how to become a better programmer, you
-                                    can usually find me at the climbing wall or in the weight-room. Or maybe
-                                    on South Quad with a couple of friends. Maybe hammocking, perhaps slacklining, or even
-                                    messing with some soccer, football,
-							or volleyball - really just anything of that nature.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="card index-card">
-                            <div class="card-body">
-                                <h5 class="card-title text-dark">This Website</h5>
-                                <p>As part of my Spring 2019 Systems Programming class, a group of 3 of us were tasked with
-                                    creating a
-							web server (the very server which is feeding your requests) and a hammering client.</p>
-                                <p>The server was built using C and was given the name DiscreetOctupus. She's a little rough on
-                                    the
-							edges, but she got you here, didn't she?</p>
-                                <p class="card-text"><small class="text-muted"><a class="text-dark" href="/work">Learn
-									more</a></small></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-1"></div>
-
-                </div>
                 <div class="row py-5">
                     <div class="col-1"></div>
                     <div class="col-4">

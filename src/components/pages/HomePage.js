@@ -7,12 +7,16 @@ import React, { Fragment } from 'react';
 import HomeHeader from '../layout/HomeHeader';
 import Footer from '../layout/Footer';
 import HomeContent from '../layout/HomeContent';
+import AboutMeSection from '../layout/AboutMeSection';
+import WantToDoSection from '../layout/WantToDoSection';
 
 /* NAVBAR */
 const HomePage = () => {
     return (
         <Fragment>
             <HomeHeader/>
+            <AboutMeSection/>
+            <WantToDoSection/>
             <HomeContent/>
             <Footer/>
         </Fragment>
