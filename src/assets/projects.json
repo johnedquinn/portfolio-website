@@ -1,0 +1,76 @@
+{
+    "projects": [
+        {
+            "title": "CSE 20289 Systems Programming Assignments",
+            "subtitle": "GitLab Project | Shell | Python | C",
+            "type": "gitlab",
+            "valid": true,
+            "description": "This is the project for all assignments for the Spring 2019 CSE 20289 course. It contains Shell Scripts, Python Scripts, and C Programs. EDvwe WErv evqerrrrkrkvnkerv revvkervrv vvreqve qvrevreqveq veqrveqrvreq veqrveqrvqer veqr",
+            "link": "https://gitlab.com/johnedquinn",
+            "imageURL": "https://assets.gitlab-static.net/uploads/-/system/project/avatar/12074193/Octopus2.jpg?width=40"
+        },
+        {
+            "title": "Iron Chapel*",
+            "subtitle": "GitLab Project | Dart | Flutter",
+            "type": "gitlab",
+            "valid": false,
+            "description": "This project's goal is to develop a scalable iOS/Android application using Dart, Flutter, and Google's Firstore, in the aims of tracking weight-lifting progress.",
+            "link": "https://gitlab.com/johnedquinn/iron-chapel",
+            "imageURL": "/assets/images/GitLab_Favicon.png"
+        },
+        {
+            "title": "80's House",
+            "subtitle": "Spotify Playlist | Alternative",
+            "type": "spotify",
+            "valid": false,
+            "description": "Just some music to play in the background of every morning ever.",
+            "link": "https://open.spotify.com/user/johnedquinn/playlist/2IgQdikyWtiO9GccwwTCBq?si=XL0OO-ULRlecE3ssyxaUpw",
+            "imageURL": "/assets/images/Spotify_Favicon.png"
+        },
+        {
+            "title": "The Old JQ",
+            "subtitle": "Spotify Playlist | Rock | Country",
+            "type": "spotify",
+            "valid": false,
+            "description": "If you ever need some really rocking music. Meant for sunny days, spike-ball, and football on the quad.",
+            "link": "https://open.spotify.com/user/johnedquinn/playlist/5fU4P9Qr3IODTbhd8HNKB0?si=m3PkS002Swmb6hJhn9S8_Q",
+            "imageURL": "/assets/images/Spotify_Favicon.png"
+        },
+        {
+            "title": "Data Structures*",
+            "subtitle": "GitLab Project | C++",
+            "type": "gitlab",
+            "valid": false,
+            "description": "A personal attempt at practicing the Data Structures encountered in my Spring 2019 CSE 20312 course.",
+            "link": "https://gitlab.com/johnedquinn/datastructures",
+            "imageURL": "/assets/images/GitLab_Favicon.png"
+        },
+        {
+            "title": "Music Transfer*",
+            "subtitle": "GitLab Project | Python",
+            "type": "gitlab",
+            "valid": false,
+            "description": "An attempt at opening Apple Music playlists, parsing the JSON, taking all the song information, and creating Spotify playlists using the Spotipy API.",
+            "link": "https://gitlab.com/johnedquinn/musictransfer",
+            "imageURL": "/assets/images/GitLab_Favicon.png"
+        },
+        {
+            "title": "Personal Bin",
+            "subtitle": "GitLab Project | Shell | Python",
+            "type": "gitlab",
+            "valid": true,
+            "description": "This project contains the executables in my PATH that make my life easier.",
+            "link": "https://gitlab.com/johnedquinn/personal-bin",
+            "imageURL": "https://assets.gitlab-static.net/uploads/-/system/project/avatar/14108325/TOOLS.jpg?width=40"
+        },
+        {
+            "title": "Tailgate with Vermin",
+            "subtitle": "Spotify Playlist | Rock | Country",
+            "type": "spotify",
+            "valid": false,
+            "description": "Trust me. You'll want to play this at your next BBQ. Maybe wear some denim overalls while you're at it.",
+            "link": "https://open.spotify.com/user/johnedquinn/playlist/5ZJWyHG6dPl3SB5Q8MCu4d?si=Pz7OO30KQwGXZR1G0Ty6Pw",
+            "imageURL": "/assets/images/Spotify_Favicon.png"
+        }
+    ]
+}

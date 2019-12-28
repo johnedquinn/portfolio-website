@@ -39,7 +39,6 @@ const ThisProjectSection = () => {
 							</div>
 						</div>
 					</div>
-					<div className="row py-5"></div>
 				</div>
 			</div>
 		</Fragment>
