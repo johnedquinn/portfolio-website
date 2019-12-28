@@ -22,7 +22,7 @@ const WantToDoSection = () => {
 							systems programming, and compilers development (among many other things).</p>
 					</div>
 				</div>
-				<div class="row py-4"></div>
+				<div class="row py-5"></div>
 			</div>
 
 		</Fragment>

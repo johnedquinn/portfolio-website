@@ -10,7 +10,7 @@ const AboutMeSection = () => {
 	return (
 		<Fragment>
 			<div className="container">
-			<div class="row py-4"></div>
+			<div class="row py-5"></div>
 				<div class="row py-3">
 					<div className="col col-3 text-center">
 						<h1 class="card-title text-dark">Who I Am</h1>
