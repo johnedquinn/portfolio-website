@@ -1,6 +1,24 @@
 {
     "projects": [
         {
+            "title": "BMinor Compiler",
+            "subtitle": "GitLab Project | C | Flex | Bison",
+            "type": "gitlab",
+            "valid": true,
+            "description": "The goal of this project is to create a compiler from scratch using C, Flex, and Bison to process BMinor files and output x86 assembly. This assembly, in turn, will be able to be assembled into an object file and then transformed into an executable.",
+            "link": "https://gitlab.com/johnedquinn/BminorCompiler",
+            "imageURL": "https://assets.gitlab-static.net/uploads/-/system/project/avatar/15876716/Bminor.jpeg?width=40"
+        },
+        {
+            "title": "Hummingbird",
+            "subtitle": "GitLab Project | Python | CherryPy | JS | Bootstrap | HTML | CSS",
+            "type": "gitlab",
+            "valid": true,
+            "description": "The goal of this project was to create a simulation of a stock trading platform. The server was initialized using CherryPy to handle client requests and return formatted data about real-time stocks. This server used RapidAPI's YahooFinance API to handle real-time data.",
+            "link": "https://gitlab.com/johnedquinn/hummingbird",
+            "imageURL": "https://assets.gitlab-static.net/uploads/-/system/project/avatar/15277413/hummingbird.jpg?width=40"
+        },
+        {
             "title": "CSE 20289 Systems Programming Assignments",
             "subtitle": "GitLab Project | Shell | Python | C",
             "type": "gitlab",
