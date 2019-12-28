@@ -5,15 +5,17 @@
 /* IMPORTS */
 import React, { Fragment } from 'react';
 import ProjectsHeader from '../layout/ProjectsHeader';
-import Footer from '../layout/Footer';
+import ThisProjectSection from '../layout/ThisProjectSection';
 import ProjectsContent from '../layout/ProjectsContent';
+import Footer from '../layout/Footer';
 
 /* NAVBAR */
 const ProjectsPage = () => {
     return (
         <Fragment>
-            <ProjectsHeader />
-            <ProjectsContent />
+            <ProjectsHeader/>
+            <ThisProjectSection/>
+            <ProjectsContent/>
             <Footer />
         </Fragment>
     );

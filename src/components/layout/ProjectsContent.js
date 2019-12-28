@@ -6,7 +6,8 @@
 import React, { Fragment } from 'react';
 import GitLab_Favicon from '../img/GitLab_Favicon.png';
 
-/* NAVBAR */
+/// @func: ThisProjectSection
+/// @desc: N/A
 const ProjectsContent = () => {
     return (
         <Fragment>
@@ -42,8 +43,8 @@ const ProjectsContent = () => {
                             <div class="card-footer">
                                 <img style={{maxHeight: '5rem', maxWidth: '1.5rem'}} src={GitLab_Favicon}
                                     alt="GitLab Project"></img>
-                                <p class="card-text"><small class="text-muted">GitLab Project | C | Bash | HTML | JS</small>
-                                </p>
+                                <h6 class="card-text"><span className="badge badge-dark">GitLab Project | C | Bash | HTML | JS</span>
+                                </h6>
                             </div>
                         </div>
                     </div>
