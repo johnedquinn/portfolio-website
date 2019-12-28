@@ -15,6 +15,7 @@ const HistorySection = () => {
                     <div className="row py-5"></div>
                     <div className="col">
                         <h2 className="text-center text-white">My History</h2>
+                        <div className="row py-2"></div>
                         <h4 class="text-white">Growing Up</h4>
                         <p className="text-white">Born and raised in Parkland, Florida, a verdant suburb of Deerfield and Fort Lauderdale
 							Beach, I have always been one to be outdoors. Soccer, football, basketball, baseball,
