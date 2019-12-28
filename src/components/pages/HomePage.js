@@ -6,11 +6,11 @@
 import React, { Fragment } from 'react';
 import HomeHeader from '../layout/HomeHeader';
 import Footer from '../layout/Footer';
-import HomeContent from '../layout/HomeContent';
 import AboutMeSection from '../layout/AboutMeSection';
 import WantToDoSection from '../layout/WantToDoSection';
 import HistorySection from '../layout/HistorySection';
 import HomeBreakSection from '../layout/HomeBreakSection';
+import ExperienceSection from '../layout/ExperienceSection';
 
 /* NAVBAR */
 const HomePage = () => {
@@ -20,7 +20,7 @@ const HomePage = () => {
             <AboutMeSection/>
             <WantToDoSection/>
             <HomeBreakSection/>
-            <HomeContent/>
+            <ExperienceSection/>
             <HistorySection/>
             <Footer/>
         </Fragment>
