@@ -1,37 +1,31 @@
-/// @file:      HomeContent.js
+/// @file:      ExperienceSection.js
 /// @author:    John Ed Quinn
-// @desc:       Content for Home Page
+// @desc:       Content for Experience Section of Home Page
 
 /* IMPORTS */
 import React, { Fragment } from 'react';
 
 /* NAVBAR */
-const HomeContent = () => {
+const ExperienceSection = () => {
     return (
         <Fragment>
-
-	<div class="col">
-
-		<div class="row py-1">
-			<div class="col-1"></div>
-			<div class="col-10">
-				<h3 class="text-dark">Experience</h3>
-			</div>
-			<div class="col-1"></div>
-		</div>
-		<div class="row py-1">
-
-			<div class="col-1"></div>
-			<div class="col-10">
-				<div class="card index-card">
-					<div class="card-body">
-						<h5 class="card-title text-dark">Summer 2019 - Cerenovus Product Management Intern</h5>
-						<p>This summer of 2019 I spent in Miramar, FL working for a medical device company (Cerenovus)
+            <div>
+                <div className="container">
+                    <div className="row py-5"></div>
+                    <div className="col">
+                        <h2 className="text-center text-dark">Experience</h2>
+                        <div className="row py-2"></div>
+                        <h4 class="text-dark">Software Engineering Intern | Capital One</h4>
+                        <h8 class="text-dark"><span className="badge badge-dark">Summer 2020</span></h8>
+                        <p className="text-dark">N/A</p>
+                        <div className="row py-2"></div>
+                        <h4 class="text-dark">Product Management Intern | Cerenovus</h4>
+                        <h8 class="text-dark"><span className="badge badge-dark">Summer 2018 & 2019</span></h8>
+                        <p className="text-dark">This summer of 2019 I spent in Miramar, FL working for a medical device company (Cerenovus)
 							in Johnson & Johnson's Family of Companies. My role, as a Product Management Intern, can be
-							split into two separate functional groups.
-						</p>
-						<div class="container">
-							<p><b>Technical:</b> The facility, which was split as a manufacturing
+							split into two separate functional groups.</p>
+                        <div class="container">
+                            <p className="text-dark"><b>Technical:</b> The facility, which was split as a manufacturing
 								site and as an office space, served as a great opportunity to examine manufacturing
 								processes
 								and devise how they can be radically changed. I, with the guidance of mechanical,
@@ -52,7 +46,7 @@ const HomeContent = () => {
 								prior
 								to my internship, but I made modifications to ensure its functionality.</p>
 
-							<p><b>Project Oriented:</b> As of September 2019, Cerenovus has been undergoing the
+                            <p className="text-dark"><b>Project Oriented:</b> As of September 2019, Cerenovus has been undergoing the
 								transition of legal entities
 								from Codman to Cerenovus. Part of this process involves rigorous regulatory,
 								manufacturing, marketing, and labeling checks to ensure that products and documents are
@@ -60,18 +54,14 @@ const HomeContent = () => {
 								Rebranding Project included heading the workstream to update all external and internal
 								documents. Beyond this role, I worked as a multi-site point of contact to coordinate the
 								release of updated subassemblies, labels, ID bands, and finished goods.</p>
-						</div>
-
-					</div>
-				</div>
-			</div>
-			<div class="col-1"></div>
-		</div>
-		<div class="row py-1"></div>
-	</div>
+                        </div>
+                    </div>
+                    <div className="row py-5"></div>
+                </div>
+            </div>
         </Fragment>
     );
 }
 
 /* EXPORTS */
-export default HomeContent;
+export default ExperienceSection;
