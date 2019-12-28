@@ -19,8 +19,8 @@ const HomeBreakSection = () => {
 						<p className="text-white text-center">My past work ranges from developing APIs and dynamic websites to building programming languages and web servers.</p>
 						<div className="row">
 							<div className="col col-3 text-center"></div>
-							<div className="col col-3 text-center"><Button variant="light">Projects</Button></div>
-							<div className="col col-3 text-center"><Button variant="light">Course Work</Button></div>
+							<div className="col col-3 text-center"><Button variant="light" href="/projects">Projects</Button></div>
+							<div className="col col-3 text-center"><Button variant="light" href="/courses">Courses</Button></div>
 							<div className="col col-3 text-center"></div>
 						</div>
 					</div>
