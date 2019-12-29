@@ -20,11 +20,11 @@ const ThisProjectSection = () => {
 						<div className="row py-3"></div>
 						<div class="row py-3">
 							<div className="col col-4 text-center">
-                                <img className="project-image" src={Library}
+                                <img className="project-image" src="https://assets.gitlab-static.net/uploads/-/system/project/avatar/15991469/BG.jpeg?width=40"
                                     alt="GitLab Project"></img>
 							</div>
 							<div className="col col-7">
-								<h3 class="card-title text-dark">Portfolio Website <img style={{maxHeight: '3rem', maxWidth: '1.5rem'}} src={GitLab_Favicon}
+								<h3 class="card-title text-dark"><a class="text-dark" rel="noopener noreferrer" target="_blank" href="https://gitlab.com/johnedquinn/portfolio-website">Portfolio Website</a> <img style={{maxHeight: '3rem', maxWidth: '1.5rem'}} src={GitLab_Favicon}
                                     alt="GitLab Project"></img></h3>
                                 <h6 class="card-text"><span className="badge badge-dark">GitLab Project | C | Bash | HTML | JS</span></h6>
 								<p className="text-dark">My passion is building beautiful things from makefiles
