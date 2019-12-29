@@ -19,10 +19,19 @@
             "imageURL": "https://assets.gitlab-static.net/uploads/-/system/project/avatar/15277413/hummingbird.jpg?width=40"
         },
         {
+            "title": "DiscreetOctupus",
+            "subtitle": "GitLab Project | C | Shell | Python",
+            "type": "gitlab",
+            "valid": true,
+            "description": "A web server built from scratch using parent/child processes, HTTP protocols, socket and port manipulation, and memory management. This project was initially the final project for CSE 20289, but it was forked at the end to be further enhanced and to be used as a personal server to host this website. Eventually, in Winter 2019, the website was redesigned and moved to a more common framework.",
+            "link": "https://gitlab.com/johnedquinn/discreet-octupus",
+            "imageURL": "https://assets.gitlab-static.net/uploads/-/system/project/avatar/12074193/Octopus2.jpg?width=40"
+        },
+        {
             "title": "CSE 20289 Systems Programming Assignments",
             "subtitle": "GitLab Project | Shell | Python | C",
             "type": "gitlab",
-            "valid": true,
+            "valid": false,
             "description": "This is the project for all assignments for the Spring 2019 CSE 20289 course. It contains Shell Scripts, Python Scripts, and C Programs. EDvwe WErv evqerrrrkrkvnkerv revvkervrv vvreqve qvrevreqveq veqrveqrvreq veqrveqrvqer veqr",
             "link": "https://gitlab.com/johnedquinn",
             "imageURL": "https://assets.gitlab-static.net/uploads/-/system/project/avatar/12074193/Octopus2.jpg?width=40"
