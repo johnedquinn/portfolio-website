@@ -1,21 +1,23 @@
-/// @file:      HomeHeader.js
+/// @file:      ContactHeader.js
 /// @author:    John Ed Quinn
-// @desc:       Navigation Bar
+/// @desc:      Header for the contact page
 
 /* IMPORTS */
 import React from 'react';
 import NavBar from './NavBar';
 
-/* NAVBAR */
+/// @func: ContactHeader
+/// @desc: Header for the contact page
 const ContactHeader = () => {
 	return (
-		<header class="header contact-header bg-dark">
+		<header className="header contact-header">
+			<div className="overlay"></div>
 			<NavBar/>
-			<div class="container">
-				<div class="thoughtsDescription">
-					<h1 class="text-light">Reach Out</h1>
-					<p class="text-light">I'd love to hear some feedback.</p>
-					<p class="text-light"><small>johnedquinn@gmail.com</small></p>
+			<div className="container">
+				<div className="thoughtsDescription">
+					<h1 className="text-light">Reach Out</h1>
+					<p className="text-light">I'd love to hear some feedback.</p>
+					<p className="text-light"><small>johnedquinn@gmail.com</small></p>
 				</div>
 			</div>
 		</header>
