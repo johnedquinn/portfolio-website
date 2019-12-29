@@ -26,16 +26,8 @@ const ThisProjectSection = () => {
 							<div className="col col-7">
 								<h3 class="card-title text-dark"><a class="text-dark" rel="noopener noreferrer" target="_blank" href="https://gitlab.com/johnedquinn/portfolio-website">Portfolio Website</a> <img style={{maxHeight: '3rem', maxWidth: '1.5rem'}} src={GitLab_Favicon}
                                     alt="GitLab Project"></img></h3>
-                                <h6 class="card-text"><span className="badge badge-dark">GitLab Project | C | Bash | HTML | JS</span></h6>
-								<p className="text-dark">My passion is building beautiful things from makefiles
-									to compilers to servers or even mobile applications. In university, I'm learning the
-									complexity behind computers and
-									computer networks. On my own, however, is where I do a
-									large portion of my learning. I'm currently learning how to quickly make apps for
-									future hackathons using Google's SDK, Flutter. I'm building a compiler proper in my
-									Compilers and Language Design course, and I'm on the executive board for CS For Good, a
-									club that organizes several
-							non-profit projects to serve the needs of the community.</p>
+                                <h6 class="card-text"><span className="badge badge-dark">GitLab Project | React | HTML | CSS | JS</span></h6>
+								<p className="text-dark">This website uses NodeJS, React, HTML, CSS, JS, and Bootstrap to present to you the content that you are viewing at this very moment. The original website ran on a server (see DiscreetOctupus below), but was transferred to the current framework as part of a spur of curiosity mixed with freshly brewed coffee. Feel free to access the source code by clicking on the title above.</p>
 							</div>
 						</div>
 					</div>
