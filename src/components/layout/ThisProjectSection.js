@@ -5,7 +5,6 @@
 /* IMPORTS */
 import React, { Fragment } from 'react';
 import GitLab_Favicon from '../img/GitLab_Favicon.png';
-import Library from '../img/library.jpg'
 
 /// @func: ThisProjectSection
 /// @desc: N/A
