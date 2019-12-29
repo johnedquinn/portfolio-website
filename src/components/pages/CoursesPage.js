@@ -5,12 +5,14 @@
 /* IMPORTS */
 import React, { Fragment } from 'react';
 import Footer from '../layout/Footer';
+import CoursesHeader from '../layout/CoursesHeader';
 
 /* NAVBAR */
 const CoursesPage = () => {
     return (
         <Fragment>
-            <Footer />
+            <CoursesHeader/>
+            <Footer/>
         </Fragment>
     );
 }
