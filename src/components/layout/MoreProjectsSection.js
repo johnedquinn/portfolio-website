@@ -8,6 +8,9 @@ import GitLab_Favicon from '../img/GitLab_Favicon.png';
 import Spotify_Favicon from '../img/Spotify_Favicon.png';
 import Projects from '../../assets/projects.json';
 
+/* GLOBALS */
+var index = 0;
+
 /// @func: createProjectItem
 /// @desc: returns a project card for the projects page
 const createProjectItem = (project) => {
@@ -24,7 +27,7 @@ const createProjectItem = (project) => {
 
 	// Return card
 	return (
-		<div className="row py-4 mobile-center">
+		<div className="row py-4 mobile-center" key={"project-" + index++}>
 			<div className="col col-4 text-center mobile-empty">
 				<img className="project-image" src={project['imageURL']}
 					alt={alt_text}></img>
