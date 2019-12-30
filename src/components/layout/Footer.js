@@ -1,6 +1,6 @@
 /// @file:      Footer.js
 /// @author:    John Ed Quinn
-// @desc:       Footer
+/// @desc:       Footer
 
 /* IMPORTS */
 import React from 'react';
@@ -11,18 +11,19 @@ import Twitter from '../icons/Twitter.svg';
 import Spotify from '../icons/Spotify.svg';
 import Snapchat from '../icons/Snapchat.svg';
 
-/* NAVBAR */
+/// @func: Footer
+/// @desc: Returns the footer for the website
 const Footer = () => {
     return (
-        <div class="col footer">
-            <div class="row py-5"></div>
-            <div class="row justify-content-center">
-                <h2 class="text-light">Stay along for the ride</h2>
+        <div className="col footer">
+            <div className="row py-5"></div>
+            <div className="row text-center justify-content-center">
+                <h2 className="text-light">Stay along for the ride</h2>
             </div>
-            <div class="row">
-                <div class="col">
-                    <nav class="navbar navbar-expand-lg bg-transparent justify-content-center">
-                        <ul class="navbar-nav">
+            <div className="row">
+                <div className="col">
+                    <nav className="navbar navbar-expand bg-transparent justify-content-center">
+                        <ul className="navbar-nav">
                             <li><a href="https://www.linkedin.com/in/johnedquinn/" rel="noopener noreferrer" target="_blank"><img className="footer-icon" alt="LinkedIn Icon" src={LinkedIn}/></a></li>
                             <li><a href="https://gitlab.com/johnedquinn" rel="noopener noreferrer" target="_blank"><img className="footer-icon" alt="Git Icon" src={Github}/></a></li>
                             <li><a href="https://open.spotify.com/user/johnedquinn" rel="noopener noreferrer" target="_blank"><img className="footer-icon" alt="Spotify Icon" src={Spotify}/></a></li>
@@ -33,9 +34,9 @@ const Footer = () => {
                     </nav>
                 </div>
             </div>
-            <div class="row py-4"></div>
+            <div className="row py-4"></div>
                 <p className="text-center"><small className="text-center text-white">&copy; 2019 John Ed Quinn</small></p>
-            <div class="row py-2"></div>
+            <div className="row py-2"></div>
         </div>
     );
 }
