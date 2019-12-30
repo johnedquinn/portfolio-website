@@ -6,6 +6,9 @@
 import React, { Fragment } from 'react';
 import Courses from '../../assets/courses.json';
 
+/* GLOBALS */
+var index = 0;
+
 /// @func: createCourse
 /// @desc: returns a course card for the projects page
 const createCourse = (course) => {
@@ -14,7 +17,7 @@ const createCourse = (course) => {
 
 	// Return card
 	return (
-		<div className="py-4 mobile-center">
+		<div className="py-4 mobile-center" key={"course-" + index++}>
 				<h3 className="card-title text-dark"><a className="text-dark" rel="noopener noreferrer" target="_blank" href={course['link']}>{course['title']}</a></h3>
 				<h6 className="card-text"><span className="badge badge-dark">{course['code']}</span> <span className="badge badge-success">{course['date']}</span> <span className="badge badge-danger">{course['org']}</span></h6>
 				<p className="text-dark">{course['description']}</p>
