@@ -16,7 +16,7 @@ const HistorySection = () => {
                     <div className="col">
                         <h2 className="text-center text-white">My History</h2>
                         <div className="row py-2"></div>
-                        <h4 class="text-white">Growing Up</h4>
+                        <h4 className="text-white">Growing Up</h4>
                         <p className="text-white">Born and raised in Parkland, Florida, a verdant suburb of Deerfield and Fort Lauderdale
 							Beach, I have always been one to be outdoors. Soccer, football, basketball, baseball,
 							lacrosse, surfing -- there aren't many sports that I wasn't playing in my adolescent years,
@@ -26,7 +26,7 @@ const HistorySection = () => {
 							Eventually, I developed a great passion for Mathematics, to the point that I strongly
 							considered a career in it post high-school.</p>
                         <div className="row py-2"></div>
-                        <h4 class="card-title text-white">Adult Life</h4>
+                        <h4 className="card-title text-white">Adult Life</h4>
                         <p className="text-white">During high-school I definitely got a glimpse of the mathematical side that I had always
 							loved, and I spent the first two years working hard to master it. Days prior to the start of
 							my Junior year of highschool, I moved to El Tigre, Anzoategui,

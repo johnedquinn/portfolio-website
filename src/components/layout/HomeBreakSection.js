@@ -13,9 +13,9 @@ const HomeBreakSection = () => {
 			<div className="header break-section">
 				<div className="overlay"></div>
 				<div className="container">
-					<div class="row py-5"></div>
-					<div class="col">
-						<h1 class="text-white text-center">Take a Glimpse at my Work</h1>
+					<div className="row py-5"></div>
+					<div className="col">
+						<h1 className="text-white text-center">Take a Glimpse at my Work</h1>
 						<p className="text-white text-center">My past work ranges from developing APIs and dynamic websites to building programming languages and web servers.</p>
 						<div className="row">
 							<div className="col col-3 text-center"></div>
@@ -24,7 +24,7 @@ const HomeBreakSection = () => {
 							<div className="col col-3 text-center"></div>
 						</div>
 					</div>
-					<div class="row py-5"></div>
+					<div className="row py-5"></div>
 				</div>
 			</div>
 

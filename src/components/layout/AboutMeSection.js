@@ -10,13 +10,13 @@ const AboutMeSection = () => {
 	return (
 		<Fragment>
 			<div className="container">
-			<div class="row py-5"></div>
+			<div className="row py-5"></div>
 				<div className="text-center desk-empty">
-					<h1 class="card-title text-dark">Who I Am</h1>
+					<h1 className="card-title text-dark">Who I Am</h1>
 				</div>
-				<div class="row py-3 mobile-center">
+				<div className="row py-3 mobile-center">
 					<div className="col col-3 text-center mobile-empty">
-						<h1 class="card-title text-dark">Who I Am</h1>
+						<h1 className="card-title text-dark">Who I Am</h1>
 					</div>
 					<div className="col col-9 mobile-center">
 						<p className="text-dark">I am a current Junior, intending on graduating in May 2021.</p>
