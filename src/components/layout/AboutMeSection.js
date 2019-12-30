@@ -11,11 +11,14 @@ const AboutMeSection = () => {
 		<Fragment>
 			<div className="container">
 			<div class="row py-5"></div>
-				<div class="row py-3">
-					<div className="col col-3 text-center">
+				<div className="text-center desk-empty">
+					<h1 class="card-title text-dark">Who I Am</h1>
+				</div>
+				<div class="row py-3 mobile-center">
+					<div className="col col-3 text-center mobile-empty">
 						<h1 class="card-title text-dark">Who I Am</h1>
 					</div>
-					<div className="col col-9">
+					<div className="col col-9 mobile-center">
 						<p className="text-dark">I am a current Junior, intending on graduating in May 2021.</p>
 						<p className="text-dark">My passion is building beautiful things from makefiles
 							to compilers to servers or even mobile applications. In university, I'm learning the
