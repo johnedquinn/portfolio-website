@@ -16,11 +16,11 @@ const ExperienceSection = () => {
                         <h2 className="text-center text-dark">Experience</h2>
                         <div className="row py-2"></div>
                         <h4 className="text-dark">Software Engineering Intern | Capital One</h4>
-                        <h8 className="text-dark"><span className="badge badge-dark">Summer 2020</span></h8>
+                        <h6 className="text-dark"><span className="badge badge-dark">Summer 2020</span></h6>
                         <p className="text-dark">N/A</p>
                         <div className="row py-2"></div>
                         <h4 className="text-dark">Product Management Intern | Cerenovus</h4>
-                        <h8 className="text-dark"><span className="badge badge-dark">Summer 2018 & 2019</span></h8>
+                        <h6 className="text-dark"><span className="badge badge-dark">Summer 2018 & 2019</span></h6>
                         <p className="text-dark">This summer of 2019 I spent in Miramar, FL working for a medical device company (Cerenovus)
 							in Johnson & Johnson's Family of Companies. My role, as a Product Management Intern, can be
 							split into two separate functional groups.</p>
