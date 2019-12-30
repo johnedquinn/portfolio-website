@@ -7,7 +7,6 @@ import React, { Fragment } from 'react';
 import HomePage from './components/pages/HomePage';
 import ProjectsPage from './components/pages/ProjectsPage';
 import ContactPage from './components/pages/ContactPage';
-import CoursesPage from './components/pages/CoursesPage';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 
@@ -18,7 +17,6 @@ const App = () =>
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route exact path='/projects' component={ProjectsPage} />
-        <Route exact path='/courses' component={CoursesPage} />
         <Route exact path='/contact' component={ContactPage} />
       </Switch>
     </Fragment>

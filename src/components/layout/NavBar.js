@@ -5,7 +5,6 @@
 /* IMPORTS */
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-//import { Link } from 'react-router-dom';
 
 /* NAVBAR */
 const NavBar = () => {
@@ -17,7 +16,6 @@ const NavBar = () => {
                 <Nav className="mr-auto justify-content-end">
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/projects">Projects</Nav.Link>
-                    <Nav.Link href="/courses">Courses</Nav.Link>
                     <Nav.Link href="/contact">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
