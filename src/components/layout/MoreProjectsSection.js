@@ -24,12 +24,12 @@ const createProjectItem = (project) => {
 
 	// Return card
 	return (
-		<div className="row py-4">
-			<div className="col col-4 text-center">
+		<div className="row py-4 mobile-center">
+			<div className="col col-4 text-center mobile-empty">
 				<img className="project-image" src={project['imageURL']}
 					alt={alt_text}></img>
 			</div>
-			<div className="col col-8">
+			<div className="col col-8 mobile-center">
 				<h3 className="card-title text-dark"><a className="text-dark" rel="noopener noreferrer" target="_blank" href={project['link']}>{project['title']}</a>
 					<img style={{ maxHeight: '3rem', maxWidth: '1.5rem', marginLeft: "10px" }} src={icon}
 						alt="GitLab Project"></img>
@@ -62,7 +62,7 @@ const MoreProjectsSection = () => {
 					<p className="text-dark text-center"><small className="text-muted">And <em>maybe</em> some playlists</small></p>
 					<div className="row py-2"></div>
 					<ProjectsColumn/>
-					<div className="row py-5"></div>
+					<div className="row py-2"></div>
 				</div>
 			</div>
 		</Fragment>
