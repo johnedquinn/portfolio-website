@@ -12,8 +12,8 @@ const HomeHeader = () => {
         <header className="header index-header">
             <div className="overlay"></div>
             <NavBar/>
-            <div class="container mobile-center">
-                <div class="description">
+            <div className="container mobile-center">
+                <div className="description">
                     <h1>JOHN</h1>
                     <h1>ED QUINN</h1>
                     <h3>Computer Science student at the University of Notre Dame.</h3>
