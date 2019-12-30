@@ -17,12 +17,12 @@ const ThisProjectSection = () => {
 					<div className="col">
 						<h1 className="text-center text-dark">This Project</h1>
 						<div className="row py-3"></div>
-						<div className="row py-3">
-							<div className="col col-4 text-center">
+						<div className="row py-3 mobile-center">
+							<div className="col col-4 text-center mobile-empty">
                                 <img className="project-image" src="https://assets.gitlab-static.net/uploads/-/system/project/avatar/15991469/BG.jpeg?width=40"
                                     alt="GitLab Project"></img>
 							</div>
-							<div className="col col-7">
+							<div className="col col-7 mobile-center">
 								<h3 className="card-title text-dark"><a className="text-dark" rel="noopener noreferrer" target="_blank" href="https://gitlab.com/johnedquinn/portfolio-website">Portfolio Website</a> <img style={{maxHeight: '3rem', maxWidth: '1.5rem'}} src={GitLab_Favicon}
                                     alt="GitLab Project"></img></h3>
                                 <h6 className="card-text"><span className="badge badge-dark">GitLab Project | React | HTML | CSS | JS</span></h6>
