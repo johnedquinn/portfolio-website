@@ -7,6 +7,7 @@ import React, { Fragment } from 'react';
 import ProjectsHeader from '../layout/ProjectsHeader';
 import ThisProjectSection from '../layout/ThisProjectSection';
 import MoreProjectsSection from '../layout/MoreProjectsSection';
+import CoursesSection from '../layout/CoursesSection';
 import Footer from '../layout/Footer';
 
 /* NAVBAR */
@@ -16,6 +17,7 @@ const ProjectsPage = () => {
             <ProjectsHeader/>
             <ThisProjectSection/>
             <MoreProjectsSection/>
+            <CoursesSection/>
             <Footer />
         </Fragment>
     );
