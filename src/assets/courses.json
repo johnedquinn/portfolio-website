@@ -1,47 +1,47 @@
 {
     "courses": [
         {
-            "code": "CSE XX",
+            "code": "CSE 30872",
             "title": "Programming Challenges",
             "valid": true,
             "description": "The objective of this course is to develop the necessary intution of solving common Computer Science \"brain-teasers\" to develop our use of Data Structures and Algorithms.",
-            "link": "https://gitlab.com/johnedquinn/BminorCompiler",
+            "link": "https://www3.nd.edu/~pbui/teaching/cse.30872.fa19/",
             "org": "University of Notre Dame",
             "date": "Fall 2019"
         },
         {
-            "code": "CSE XX",
+            "code": "CSE 40243",
             "title": "Compilers and Language Design",
             "valid": true,
             "description": "The objective of this course is to build a compiler proper to successfully compile a C-like language.",
-            "link": "https://gitlab.com/johnedquinn/BminorCompiler",
+            "link": "https://www3.nd.edu/~dthain/courses/cse40243/fall2019/",
             "org": "University of Notre Dame",
             "date": "Fall 2019"
         },
         {
-            "code": "CSE XX",
+            "code": "CSE 30321",
             "title": "Computer Architecture",
             "valid": true,
             "description": "The objective of this course is to understand how the underlying structure of processors can be manipulated to serve computational needs such as machine learning.",
-            "link": "https://gitlab.com/johnedquinn/BminorCompiler",
+            "link": "https://www.google.com/",
             "org": "University of Notre Dame",
             "date": "Fall 2019"
         },
         {
-            "code": "CSE 20289",
+            "code": "CSE 30151",
             "title": "Theory of Computing",
             "valid": true,
             "description": "The objective of this course is to learn about the theoretical underpinnings of Computer Science through formal languages and automata, computability theory, and complexity theory.",
-            "link": "https://gitlab.com/johnedquinn/BminorCompiler",
+            "link": "https://www3.nd.edu/~cpennycu/2019/fa-CSE30151.html",
             "org": "University of Notre Dame",
             "date": "Fall 2019"
         },
         {
-            "code": "CSE 20289",
+            "code": "CSE 30332",
             "title": "Programming Paradigms",
             "valid": true,
             "description": "The objective of this course is to apply theoretical programming concepts to real-world problems. The course will go over scripting, libraries, multi-language interfacing, and more.",
-            "link": "https://gitlab.com/johnedquinn/BminorCompiler",
+            "link": "https://www3.nd.edu/~skumar5/teaching/2019-fall-pp.html#schedule",
             "org": "University of Notre Dame",
             "date": "Fall 2019"
         },
@@ -50,54 +50,54 @@
             "title": "Systems Programming",
             "valid": true,
             "description": "This course taught me the usefulness of shell scripting, the concepts of parallelism and concurrency using Python scripts (to brute-force crack passwords), the protocols necessary to create an HTTP server using C, and the beauty and structure provided by the Unix philosophy.",
-            "link": "https://gitlab.com/johnedquinn/BminorCompiler",
+            "link": "https://www3.nd.edu/~pbui/teaching/cse.20289.sp19/",
             "org": "University of Notre Dame",
-            "date": "Fall 2019"
+            "date": "Spring 2019"
         },
         {
-            "code": "CSE 20289",
+            "code": "CSE XXX",
             "title": "Data Structures",
             "valid": true,
             "description": "This course taught me the data structures and algorithms that are the core of Computer Science and the building blocks for nearly every computer program. We went through the fundamental techniques in designing, implementing, and analyzing the structures created.",
-            "link": "https://gitlab.com/johnedquinn/BminorCompiler",
+            "link": "https://www.google.com/",
             "org": "University of Notre Dame",
-            "date": "Fall 2019"
+            "date": "Spring 2019"
         },
         {
-            "code": "CSE 20289",
+            "code": "CSE XXX",
             "title": "Logic Design",
             "valid": true,
             "description": "This course taught me how computers work today through boolean algebra and switching circuits, Karnaugh maps, combinational and sequential logic networks, and sequential machines. This class also gave me a taste of assembly code -- prepping me for the more rigorous courses of Computer Architecture and Compilers and Language Design.",
-            "link": "https://gitlab.com/johnedquinn/BminorCompiler",
+            "link": "https://www.google.com/",
             "org": "University of Notre Dame",
-            "date": "Fall 2019"
+            "date": "Spring 2019"
         },
         {
-            "code": "CSE 20289",
+            "code": "CSE XXX",
             "title": "Fundamentals of Computing",
             "valid": true,
             "description": "This course was the first true stepping stone into Computer Science for me. Taught in the Fall of 2018, this course was a major part of my discernment into my current major. The weekly labs and assignments taught me the fundamentals of pointer manipulation in C++.",
-            "link": "https://gitlab.com/johnedquinn/BminorCompiler",
+            "link": "https://www.google.com/",
             "org": "University of Notre Dame",
-            "date": "Fall 2019"
+            "date": "Fall 2018"
         },
         {
-            "code": "CSE 20289",
+            "code": "CSE XXX",
             "title": "Electric Circuit Analysis",
             "valid": true,
             "description": "This course was an elective I took over Fall 2018. It provided me with knowledge pertaining to linear circuit analysis principles such as KCL, KVL, nodal and mesh analysis methods, operational amplifiers, and transient analysis of first-order RC/RL circuits.",
-            "link": "https://gitlab.com/johnedquinn/BminorCompiler",
+            "link": "https://www.google.com/",
             "org": "University of Notre Dame",
-            "date": "Fall 2019"
+            "date": "Fall 2018"
         },
         {
-            "code": "CSE 20289",
+            "code": "XXX XXX",
             "title": "Introduction to Design Thinking",
             "valid": true,
             "description": "This elective, taken in Fall 2017, provided me with the tools necessary to ideate, design, and implement. It truly curbed my thought process and how I interact with project members (randomly grabbing white-boards and drawing rough sketches of everyone's ideas until a solid foundation has been built). It has improved the efficiency of all teams I have been part of due to the mere habit of putting pen to paper and using iterative techniques.",
-            "link": "https://gitlab.com/johnedquinn/BminorCompiler",
+            "link": "https://www.google.com/",
             "org": "University of Notre Dame",
-            "date": "Fall 2019"
+            "date": "Fall 2017"
         }
     ]
 }
