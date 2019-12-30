@@ -200,3 +200,30 @@
 	background-size: cover;
 	margin: 5px;
 }
+
+@media screen and (max-width: 600px) {
+
+	.project-image {
+	  visibility: hidden;
+	  clear: both;
+	  float: left;
+	  margin: 10px auto 5px 20px;
+	  width: 28%;
+	  display: none;
+	}
+
+	.mobile-empty {
+	  visibility: hidden;
+	  clear: both;
+	  float: left;
+	  margin: 10px auto 5px 20px;
+	  width: 28%;
+	  display: none;
+	}
+
+	.mobile-center {
+		text-align: center;
+		align-self: center;
+		justify-content: center;
+	}
+  }
