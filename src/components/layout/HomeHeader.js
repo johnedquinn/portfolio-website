@@ -16,8 +16,8 @@ const HomeHeader = () => {
                 <div className="description">
                     <h1>JOHN</h1>
                     <h1>ED QUINN</h1>
-                    <h3>Computer Science student at the University of Notre Dame.</h3>
-                    <h5>Really just someone who is fascinated by what's possible.</h5>
+                    <h3>Software Development Engineer at Amazon</h3>
+                    <h5>And just someone who is fascinated by what's possible</h5>
                 </div>
             </div>
         </header>
