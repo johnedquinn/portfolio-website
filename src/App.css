@@ -174,7 +174,7 @@
 	height: 100%;
 }
 .break-section {
-	background-image: url("./components/img/library.jpg");
+	background-image: url("./components/img/work.jpeg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -194,6 +194,16 @@
 .footer-icon {
 	max-height: 1.5rem;
 	min-height: 1.5rem;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: 5px;
+}
+
+.home-icon {
+	max-height: 4rem;
+	min-height: 4rem;
 	height: 30px;
 	background-repeat: no-repeat;
 	background-position: center;
