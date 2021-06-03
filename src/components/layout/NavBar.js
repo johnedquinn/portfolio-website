@@ -13,13 +13,6 @@ const NavBar = () => {
         <Navbar className="navbar-dark" bg="transparent" expand="lg">
             <Navbar.Brand href="/" className="mobile-empty">John Ed Quinn</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-            <Navbar.Collapse className="justify-content-end">
-                <Nav className="mr-auto justify-content-end">
-                    <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="/projects">Projects</Nav.Link>
-                    <Nav.Link href="/contact">Contact</Nav.Link>
-                </Nav>
-            </Navbar.Collapse>
         </Navbar>
     );
 }
