@@ -7,10 +7,8 @@ import React, { Fragment } from 'react';
 import HomeHeader from '../layout/HomeHeader';
 import Footer from '../layout/Footer';
 import AboutMeSection from '../layout/AboutMeSection';
-import WantToDoSection from '../layout/WantToDoSection';
-import HistorySection from '../layout/HistorySection';
+import TimelineSection from '../layout/TimelineSection';
 import HomeBreakSection from '../layout/HomeBreakSection';
-import ExperienceSection from '../layout/ExperienceSection';
 
 /* NAVBAR */
 const HomePage = () => {
@@ -18,10 +16,8 @@ const HomePage = () => {
         <Fragment>
             <HomeHeader/>
             <AboutMeSection/>
-            <WantToDoSection/>
+            <TimelineSection/>
             <HomeBreakSection/>
-            <ExperienceSection/>
-            <HistorySection/>
             <Footer/>
         </Fragment>
     );
