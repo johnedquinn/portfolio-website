@@ -5,6 +5,9 @@
 /* IMPORTS */
 import React, { Fragment } from 'react';
 import Button from 'react-bootstrap/Button';
+import Github from '../icons/Github.svg';
+import Gitlab from '../icons/GitLab.png';
+import Resume from '../icons/Resume.png';
 
 /* NAVBAR */
 const HomeBreakSection = () => {
@@ -19,8 +22,9 @@ const HomeBreakSection = () => {
 						<p className="text-white text-center">My past work ranges from developing APIs and dynamic websites to building programming languages and web servers.</p>
 						<div className="row">
 							<div className="col col-3 text-center"></div>
-							<div className="col col-3 text-center"><Button variant="light" href="/projects">Projects</Button></div>
-							<div className="col col-3 text-center"><Button variant="light" href="/courses">Courses</Button></div>
+							<div className="col col-2 text-center"><a href="https://github.com/johnedquinn" rel="noopener noreferrer" target="_blank"><img className="home-icon" alt="GitHub Icon" src={Github}/></a></div>
+							<div className="col col-2 text-center"><a href="https://gitlab.com/johnedquinn" rel="noopener noreferrer" target="_blank"><img className="home-icon" alt="GitLab Icon" src={Gitlab}/></a></div>
+							<div className="col col-2 text-center"><a href="https://drive.google.com/file/d/1rvOeW0j6wid5laUgBwpAPukAx5KJy5hN/view?usp=sharing" rel="noopener noreferrer" target="_blank"><img className="home-icon" alt="Resume Icon" src={Resume}/></a></div>
 							<div className="col col-3 text-center"></div>
 						</div>
 					</div>
