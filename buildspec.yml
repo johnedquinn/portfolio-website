@@ -1,3 +1,9 @@
+##
+# @file  buildspec.yml
+# @desc  Config used by AWS CodeBuild to build the source into a Docker Image and ...
+#        ... store in ECR
+##
+
 version: 0.2
 phases: 
   install:
