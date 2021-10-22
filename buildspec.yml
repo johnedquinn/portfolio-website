@@ -37,10 +37,10 @@ phases:
     - docker push $REPOSITORY_URI:$IMAGE_TAG
     - IMAGE_DETAIL_FILE="imageDetail.json"
     - IMAGE_DEF_FILE="imagedefinitions.json"
-    - echo Writing image detail file:: ${IMAGE_DETAIL_FILE}
+    - echo Writing image detail file
     - printf 'Placing {"ImageURI":"%s"} in %s' $REPOSITORY_URI:$IMAGE_TAG ${IMAGE_DETAIL_FILE}
     - printf '{"ImageURI":"%s"}' $REPOSITORY_URI:$IMAGE_TAG > ${IMAGE_DETAIL_FILE}
-    - echo Writing image definitions file:: ${IMAGE_DEF_FILE}
+    - echo Writing image definitions file
     - printf 'Placing {"ImageURI":"%s"} in %s' $REPOSITORY_URI:$IMAGE_TAG ${IMAGE_DEF_FILE}
     - printf '{"ImageURI":"%s"}' $REPOSITORY_URI:$IMAGE_TAG > ${IMAGE_DEF_FILE}
 artifacts:
