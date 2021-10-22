@@ -41,8 +41,8 @@ phases:
     - printf 'Placing {"ImageURI":"%s"} in %s' $REPOSITORY_URI:$IMAGE_TAG ${IMAGE_DETAIL_FILE}
     - printf '{"ImageURI":"%s"}' $REPOSITORY_URI:$IMAGE_TAG > ${IMAGE_DETAIL_FILE}
     - echo Writing image definitions file
-    - printf 'Placing {"imageUri":"%s", "name": "%s"} in %s' $REPOSITORY_URI:$IMAGE_TAG ${ECR_REPO_NAME} ${IMAGE_DEF_FILE}
-    - printf '{"imageUri":"%s", "name": "%s"}' $REPOSITORY_URI:$IMAGE_TAG ${ECR_REPO_NAME} > ${IMAGE_DEF_FILE}
+    - printf 'Placing {"imageUri":"%s", "name":"%s"} in %s' $REPOSITORY_URI:$IMAGE_TAG ${ECR_REPO_NAME} ${IMAGE_DEF_FILE}
+    - printf '{"imageUri":"%s", "name":"%s"}' $REPOSITORY_URI:$IMAGE_TAG ${ECR_REPO_NAME} > ${IMAGE_DEF_FILE}
 artifacts:
   files:
     - ${IMAGE_DETAIL_FILE}
