@@ -24,6 +24,7 @@ const AboutMeSection = () => {
 						<p className="text-dark">My personal hobbies include soccer, boxing, running, and reading.</p>
 					</div>
 				</div>
+			<div className="row py-4"></div>
 			</div>
 
 		</Fragment>

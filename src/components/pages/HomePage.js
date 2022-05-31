@@ -16,7 +16,6 @@ const HomePage = () => {
         <Fragment>
             <HomeHeader/>
             <AboutMeSection/>
-            <TimelineSection/>
             <HomeBreakSection/>
             <Footer/>
         </Fragment>

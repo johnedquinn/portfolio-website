@@ -35,7 +35,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="row py-4"></div>
-                <p className="text-center"><small className="text-center text-white">&copy; 2021 John Ed Quinn</small></p>
+                <p className="text-center"><small className="text-center text-white">&copy; 2022 John Ed Quinn</small></p>
             <div className="row py-2"></div>
         </div>
     );
