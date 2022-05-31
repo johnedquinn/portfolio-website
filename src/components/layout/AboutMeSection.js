@@ -12,11 +12,11 @@ const AboutMeSection = () => {
 			<div className="container">
 			<div className="row py-5"></div>
 				<div className="text-center desk-empty">
-					<h1 className="card-title text-dark">About</h1>
+					<h1 className="card-title text-dark">About Me</h1>
 				</div>
 				<div className="row py-3 mobile-center">
 					<div className="col col-2 text-center mobile-empty">
-						<h1 className="card-title text-dark">About</h1>
+						<h1 className="card-title text-dark">About Me</h1>
 					</div>
 					<div className="col col-10 mobile-center">
 						<p className="text-dark">My passion is building beautiful things from makefiles
@@ -24,7 +24,7 @@ const AboutMeSection = () => {
 						<p className="text-dark">My personal hobbies include soccer, boxing, running, and reading.</p>
 					</div>
 				</div>
-			<div className="row py-4"></div>
+			<div className="row py-5"></div>
 			</div>
 
 		</Fragment>
