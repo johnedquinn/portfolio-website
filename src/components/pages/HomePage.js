@@ -18,6 +18,7 @@ const HomePage = () => {
             <AboutMeSection/>
             <HomeBreakSection/>
             <Footer/>
+                    <iframe className="floatingBottomRight" src="https://open.spotify.com/embed/track/3VHFkxbekZQF7xLRd7KjgL?utm_source=generator" width="50%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         </Fragment>
     );
 }
