@@ -7,8 +7,8 @@ import React, { Fragment } from 'react';
 import HomeHeader from '../layout/HomeHeader';
 import Footer from '../layout/Footer';
 import AboutMeSection from '../layout/AboutMeSection';
-import TimelineSection from '../layout/TimelineSection';
 import HomeBreakSection from '../layout/HomeBreakSection';
+import SpotifySection from '../layout/SpotifySection';
 
 /* NAVBAR */
 const HomePage = () => {
@@ -17,8 +17,8 @@ const HomePage = () => {
             <HomeHeader/>
             <AboutMeSection/>
             <HomeBreakSection/>
+            <SpotifySection/>
             <Footer/>
-                    <iframe className="floatingBottomRight" src="https://open.spotify.com/embed/track/3VHFkxbekZQF7xLRd7KjgL?utm_source=generator" width="50%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         </Fragment>
     );
 }

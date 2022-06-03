@@ -2,11 +2,8 @@
 
 Welcome !
 
-This is a fun website that shows a bit who I am. It's been a while since I've worked on this project, but I'm working on making it more fun. As part of this recent effort, I'm migrating the website from AWS Amplify to using CodePipeline to deploy the app using AWS ECS. It's a work-in-progress, so stay tuned.
+This is a fun website that shows a bit who I am. It's been a while since I've worked on this project, but I'm working on making it more fun. Recently, due to the high cost of cloud, I've transitioned from using AWS CDK, CodeBuild, CodeDeploy, ECS, etc to using GitHub Actions to push to AWS ECR and ECS.
 
-## Project Goals
-
-The goal of this project is to better myself in regards to Docker and CodePipeline.
 
 ## Requirements
 
@@ -89,5 +86,4 @@ To can access the website, in this instance, at http://localhost:8050.
 
 ## View the Product
 
-The website (deployed with AWS Amplify) can be found at [https://www.johnedquinn.com](https://www.johnedquinn.com). Soon, this will change to utilize CodePipeline and ECS instead.
-
+The website can be found at [https://www.johnedquinn.io](https://www.johnedquinn.io).

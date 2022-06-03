@@ -7,8 +7,6 @@ import React from 'react';
 import LinkedIn from '../icons/LinkedIn.svg';
 import Github from '../icons/Github.svg';
 import Spotify from '../icons/Spotify.svg';
-import Gitlab from '../icons/GitLab.png';
-import Resume from '../icons/Resume.png';
 import Email from '../icons/Email.png';
 
 /// @func: Footer

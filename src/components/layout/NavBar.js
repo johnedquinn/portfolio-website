@@ -4,7 +4,7 @@
 
 /* IMPORTS */
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 
 /// @func: NavBar
 /// @desc: Navbar for website

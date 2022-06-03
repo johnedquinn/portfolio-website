@@ -4,7 +4,6 @@
 
 /* IMPORTS */
 import React, { Fragment } from 'react';
-import Button from 'react-bootstrap/Button';
 import Github from '../icons/Github.svg';
 
 /* NAVBAR */

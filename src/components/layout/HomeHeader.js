@@ -4,7 +4,6 @@
 
 /* IMPORTS */
 import React from 'react';
-import NavBar from './NavBar';
 
 /* NAVBAR */
 const HomeHeader = () => {
