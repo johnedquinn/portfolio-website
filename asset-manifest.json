@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f02975c9.chunk.css",
+    "main.js": "/static/js/main.07d255fe.chunk.js",
+    "main.js.map": "/static/js/main.07d255fe.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1dc66141.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1dc66141.js.map",
+    "static/js/2.3e40a703.chunk.js": "/static/js/2.3e40a703.chunk.js",
+    "static/js/2.3e40a703.chunk.js.map": "/static/js/2.3e40a703.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6f178c2b01f741d44f7f9009da2d3156.js": "/precache-manifest.6f178c2b01f741d44f7f9009da2d3156.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.f02975c9.chunk.css.map": "/static/css/main.f02975c9.chunk.css.map",
+    "static/js/2.3e40a703.chunk.js.LICENSE": "/static/js/2.3e40a703.chunk.js.LICENSE",
+    "static/media/Github.svg": "/static/media/Github.ba63e648.svg",
+    "static/media/LinkedIn.svg": "/static/media/LinkedIn.4569f04d.svg",
+    "static/media/Spotify.svg": "/static/media/Spotify.8ad12075.svg",
+    "static/media/App.css": "/static/media/work.dfcc5372.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1dc66141.js",
+    "static/js/2.3e40a703.chunk.js",
+    "static/css/main.f02975c9.chunk.css",
+    "static/js/main.07d255fe.chunk.js"
+  ]
+}
